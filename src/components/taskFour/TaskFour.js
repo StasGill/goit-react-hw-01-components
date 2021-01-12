@@ -1,5 +1,6 @@
 import React from 'react'
 import Transaction from './transaction/Transaction'
+import './taskFourStyle.css'
 
 
 const TaskFour = ({transactions}) => {
@@ -15,7 +16,7 @@ const TaskFour = ({transactions}) => {
 
             <tbody>
                 {
-                    transactions.map( transaction => <Transaction transaction={transaction}/>) 
+                    transactions.map( transaction => <Transaction transaction={transaction} key={transaction.id}/>) 
                 }
             </tbody>
         </table>

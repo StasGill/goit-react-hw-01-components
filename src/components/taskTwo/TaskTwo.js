@@ -1,5 +1,6 @@
 import React from 'react'
 import ElementStatistick from './element/ElementStatistic.js'
+import './taskTwoStyle.css'
 
 
 
@@ -12,7 +13,7 @@ const TaskTwo = ({statistic}) => {
 
   <ul className="stat-list">
       {
-          statistic.map( stat => <ElementStatistick stat={stat}/>) 
+          statistic.map( stat => <ElementStatistick stat={stat} key={stat.id}/>) 
       }
     
   </ul>

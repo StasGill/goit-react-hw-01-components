@@ -1,0 +1,29 @@
+.transaction-history{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(184, 184, 184);
+    padding: 10px;
+    margin-top: 10px;
+    
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  /* .transactionItem{
+    border: 1px solid black;
+  } */
+  thead{
+    background-color: rgb(6, 175, 175);
+  }
+  tr.transactionSuperItem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+  }
+  .transactionItem:nth-child(odd) {
+    background-color: #d3d3d3;
+  }
+  
+  .transactionItem:nth-child(even) {
+    background-color: #929292;
+  }
+  
